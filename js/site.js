@@ -49,4 +49,5 @@ function displayMessage(returnObj) {
     document.getElementById("alertHeader").innerHTML = returnObj.msg;
     document.getElementById("msg").innerHTML = `You entered: ${returnObj.sanitizedUserString} and the reverse is: ${returnObj.reversed}`;
     document.getElementById("alert").classList.remove("invisible");
+
 }
